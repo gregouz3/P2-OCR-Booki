@@ -12,12 +12,12 @@
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
         integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
+        crossorigin="anonymous" referrerpolicy="no-referrer">
     <link rel="stylesheet" href="./css/style.css">
 </head>
 
 <body>
-    <!-------- Header logo et nav sections-------->
+    <!-- Header logo et nav sections-->
     <header>
         <img src="./images/logo/Booki.png" alt="logo Booki">
         <nav>
@@ -28,26 +28,25 @@
         </nav>
     </header>
     <main>
-        <!-------- Titres principaux -------->
+        <!-- Titres principaux -->
         <h1 class="h1">Trouvez votre hébergement pour des vacances de rêve</h1>
         <h2 class="h2">En plein centre-ville ou en pleine nature</h2>
-        <!-------- Barre de recherche -------->
-        <form method="get" action="" class="search-hebergement">
+        <!-- Barre de recherche -->
+        <form class="search-hebergement">
             <label for="search-hebergement"></label>
             <i class="fa-solid fa-location-dot"></i>
-            <input min="1" max="10" type="search" id="search-hebergement" name="search-hebergement"
-                placeholder="Marseille, France">
+            <input type="search" id="search-hebergement" name="search-hebergement" placeholder="Marseille, France">
             <button class="btn" type="reset">Rechercher</button>
         </form>
-        <!-------- Barre de recherche version mobile -------->
-        <form method="get" action="" class="search-hebergement-mobile">
-            <label for="search-hebergement"></label>
+        <!-- Barre de recherche version mobile -->
+        <form class="search-hebergement-mobile">
+            <label for="search-hebergement-mobile"></label>
             <i class="fa-solid fa-location-dot"></i>
-            <input min="1" max="10" type="search" id="search-hebergement" name="search-hebergement"
+            <input type="search" id="search-hebergement-mobile" name="search-hebergement-mobile"
                 placeholder="Marseille, France">
             <button type="reset" class="btn"><i class="fa-solid fa-magnifying-glass"></i></button>
         </form>
-        <!-------- Filtres -------->
+        <!-- Filtres -->
         <nav>
             <h4 class="filtres-title">Filtres</h4>
             <ul class="filtres-list">
@@ -57,14 +56,14 @@
                 <li><button class="btn-filtre"><i class="fa-solid fa-fire"></i>Nos pépites</button></li>
             </ul>
         </nav>
-        <!-------- Info logements disponibles -------->
+        <!-- Info logements disponibles -->
         <div class="infoLogement">
             <i class="fa-solid fa-info"></i>
             <p class="infoLogement-content">Plus de 500 logements sont disponibles dans cette ville</p>
         </div>
-        <!-------- Hebergements et Populaires -------->
+        <!-- Hebergements et Populaires -->
         <div class="hebergements-and-populaires">
-            <!-------- Hebergements -------->
+            <!-- Hebergements -->
             <section id="hebergements" class="hebergements">
                 <h2 class="section-title">Hébergements à Marseille</h2>
                 <div class="hebergements-cards">
@@ -179,7 +178,7 @@
                 </div>
                 <p class="hebergements-moreMess">Afficher plus</p>
             </section>
-            <!-------- Populaires -------->
+            <!-- Populaires -->
             <section class="populaires">
                 <div class="populaires-title">
                     <h2 class="section-title">Les plus populaires</h2>
@@ -243,7 +242,7 @@
                 </div>
             </section>
         </div>
-        <!-------- Activités -------->
+        <!-- Activités -->
         <section id="activites" class="activites">
             <h2 class="section-title">Activités à Marseille</h2>
             <div class="activites-cards">
@@ -266,7 +265,7 @@
             </div>
         </section>
     </main>
-    <!-------- Footer listes liens -------->
+    <!-- Footer listes liens -->
     <footer>
         <ul class="footer-nav">
             <li class="footer-nav-section">
