@@ -126,16 +126,20 @@ a {
     border-right: none;
     border-bottom: #DEEBFF 2px;
     border-left: none;
-    width: 215px;
+    width: 200px;
     height: 46px;
     padding-left: 1rem;
-    margin: auto -1.5rem auto 0;
+    margin: auto -1rem auto 0;
 }
 
 .search-hebergement input::placeholder {
     font-size: 1.1rem;
     font-weight: bold;
     color: black;
+}
+
+.search-hebergement input:focus-visible {
+    outline: none;
 }
 
 .search-hebergement .btn {
@@ -148,6 +152,10 @@ a {
     width: 120px;
     border-top-right-radius: 20px;
     border-bottom-right-radius: 20px;
+}
+
+.search-hebergement .btn:hover {
+    opacity: 0.5;
 }
 
 .search-hebergement-mobile {
@@ -202,8 +210,19 @@ a {
 
 .infoLogement i {
     margin-right: 1rem;
-    font-size: 1.1rem;
+    color: #0065FC;
 }
+
+.infoLogement i::before {
+    width: 38px;
+    height: 30px;
+    padding-top: 8px;
+    display: inline-block;
+    text-align: center;
+    border: 2px solid var(--main-bg-color);
+    border-radius: 50rem;
+}
+
 .infoLogement-content {
     opacity: 0.8;
 }
