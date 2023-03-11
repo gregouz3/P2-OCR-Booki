@@ -64,32 +64,32 @@ a {
 
 /****** Header logo et nav sections ***********/
 
-.header {
+header {
     display: flex;
     justify-content: space-between;
     margin-bottom: 3rem;
 }
 
-.header img {
+header img {
     margin-top: 30px;
 }
 
-.header nav ul {
+header nav ul {
     display: flex;
     justify-content: space-between;
 }
 
-.header nav ul li a[id*=activeDefault] {
+header nav ul li a[id*=activeDefault] {
     margin-right: 2rem;
 }
-.header nav ul li a, 
-.header nav ul li a[id*=activeDefault]:hover {
+header nav ul li a, 
+header nav ul li a[id*=activeDefault]:hover {
     color: black;
     text-decoration: none;
 }
 
-.header nav ul li a[id*=activeDefault], 
-.header nav ul li a:hover {
+header nav ul li a[id*=activeDefault], 
+header nav ul li a:hover {
     color: #0065FC;
     text-decoration: underline solid #0065FC 2px;
     text-underline-offset: -31px;
@@ -340,6 +340,60 @@ a {
 
 .activites {
     padding: 0 25px;
+    margin-bottom: 3rem;
+}
+
+.activites-cards {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.activites-cards .card {
+    width: 300px;
+    padding: 0;
+}
+
+.activites-cards img {
+    width: 300px;
+    height: 380px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.activites-cards .card-title {
+    margin-left: 1rem;
+}
+
+/****** Footer listes liens ***********/
+
+footer {
+    padding: 0 25px;
+}
+
+.footer-nav  {
+    display: flex;
+    background-color: var(--main-bg-color);
+    margin-bottom: 0;
+}
+
+.footer-nav-section {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    margin-left: 0;
+}
+
+.footer-nav-section h4 {
+    font-size: 1.2rem;
+}
+
+.footer-nav-section-liste {
+    padding: 0;
+}
+
+.footer-nav-section-liste li{
+    margin-bottom: 1.33rem;
 }
 
 /* Le code ci-dessous correspond à la version responsive uniquement */
